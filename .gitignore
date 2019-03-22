@@ -1,0 +1,7 @@
+.*
+!.gitignore
+bin
+build
+gredle
+gredlew*
+setting.gredle
