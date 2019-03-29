@@ -2,6 +2,6 @@
 !.gitignore
 bin
 build
-gredle
-gredlew*
-setting.gredle
+gradle
+gradlew*
+settings.gradle
