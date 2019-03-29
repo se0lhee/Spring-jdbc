@@ -1,4 +1,4 @@
-/*package com.seolhee.jdbc.spring;
+package com.seolhee.jdbc.spring;
 
 public class NormalMain {
 
@@ -11,4 +11,4 @@ public class NormalMain {
 
 	}
 
-}*/
+}

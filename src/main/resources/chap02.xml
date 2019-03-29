@@ -10,4 +10,16 @@
 
 	<bean id="greeter" class="com.seolhee.jdbc.spring.Greeter"/>
 
+	<bean id="memberDao" class="com.seolhee.book.example.MemberDao" />
+
+	<bean id="articleService"
+		class="com.seolhee.book.example.ArticleService">
+		<property name="memberDao" ref="memberDao" />
+	</bean>
+
+	<bean id="memberService"
+		class="com.seolhee.book.example.MemberService">
+		<property name="memberDao" ref="memberDao" />
+	</bean>
+
 </beans>
